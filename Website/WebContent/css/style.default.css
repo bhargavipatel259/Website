@@ -5,6 +5,8 @@
 * =====================
 *
 */
+
+
 [data-animate] {
   visibility: hidden;
 }
@@ -199,6 +201,9 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 * =====================
 *
 */
+
+
+
 .about-section .skill-item {
   margin-bottom: 20px;
 }
@@ -233,6 +238,8 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 .about-section .progress .progress-bar-skill4 {
   background: #8293ff;
 }
+
+
 
 /*
 *
