@@ -5,6 +5,8 @@
 * =====================
 *
 */
+
+
 [data-animate] {
   visibility: hidden;
 }
@@ -199,6 +201,9 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 * =====================
 *
 */
+
+
+
 .about-section .skill-item {
   margin-bottom: 20px;
 }
@@ -233,6 +238,8 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 .about-section .progress .progress-bar-skill4 {
   background: #8293ff;
 }
+
+
 
 /*
 *
@@ -583,61 +590,12 @@ nav.navbar a.nav-link.active, nav.navbar a.nav-link:hover {
 * =====================
 *
 */
-footer.main-footer {
-  padding: 60px 0;
-  background: #222;
-}
-
-footer.main-footer p.social a {
-  margin-left: 10px;
-  color: #fff;
-  display: inline-block;
-  width: 45px;
-  height: 45px;
-  border-radius: 25px;
-  line-height: 45px;
-  font-size: 1.3rem;
-  vertical-align: middle;
+footer { 
+  background: #F2F3F4; 
+  clear: both;
+  padding-bottom: 0;
   text-align: center;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
 }
-
-footer.main-footer p.social a.facebook {
-  background-color: #4460ae;
-}
-
-footer.main-footer p.social a.gplus {
-  background-color: #c21f25;
-}
-
-footer.main-footer p.social a.instagram {
-  background-color: #cd4378;
-}
-
-footer.main-footer p.social a.email {
-  background-color: #4a7f45;
-}
-
-footer.main-footer p {
-  margin: 0;
-  color: #eee;
-  font-family: "URW Chancery L", cursive;
-  font-size: 0.9rem;
-}
-
-footer.main-footer p.template-bootstrapious {
-  margin-top: 20px;
-  text-align: center;
-  color: #eee;
-  font-size: 0.9rem;
-  font-family: "URW Chancery L", cursive;
-}
-
-footer.main-footer p.template-bootstrapious a {
-  color: #999;
-}
-
 /*
 
 =====================
@@ -2343,6 +2301,27 @@ code {
     margin-left: 15px;
   }
   
-  
+  .social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+  body {
+  margin:0; /*gets rid of white space around body*/
+  height:200vh;
+  background:url("https://static.pexels.com/photos/1440/city-road-street-buildings.jpg") no-repeat center / contain;
+  background-color:#eee;
+  position:relative; /*REQUIRED Sets up positioning for your footer*/
+}
   
 }
